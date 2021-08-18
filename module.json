@@ -1,0 +1,38 @@
+{   
+  "name": "dragao-de-jade-aventuras",   
+  "title": "Aventuras - Dragão de Jade",
+  "description": "Aventuras - Dragão de Jade",   
+  "author": "Dragão de Jade, Mestre Digital",
+  "version": "0.0.2",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion":"0.8.8",
+  "scripts": [],  
+  "packs": [
+    {
+      "name": "cenas-a-bruxa-a-ilha-e-a-torre-sombria",
+      "label": "Cenas - A Bruxa a Ilha e a Torre Sombria",
+      "path": "packs/cenas-a-bruxa-a-ilha-e-a-torre-sombria.db",
+      "entity": "Scene",
+      "module": "dragao-de-jade-aventuras",
+      "private": true
+    },
+    {
+      "name": "registros-a-bruxa-a-ilha-e-a-torre-sombria",
+      "label": "Registros - a Bruxa a Ilha e a Torre Sombria",
+      "path": "packs/registros-a-bruxa-a-ilha-e-a-torre-sombria.db",
+      "entity": "JournalEntry",
+      "module": "dragao-de-jade-aventuras",
+      "private": true
+    }    
+  ],
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+    }    
+  ],
+  "url": "https://github.com/miguelbeholder/dragao-de-jade-aventuras",
+  "manifest": "https://raw.githubusercontent.com/miguelbeholder/dragao-de-jade-aventuras/main/module.json",  
+  "download": "https://codeload.github.com/miguelbeholder/dragao-de-jade-aventuras/zip/main"               
+}
